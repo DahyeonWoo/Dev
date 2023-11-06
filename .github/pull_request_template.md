@@ -7,9 +7,10 @@
 - [ ] Fix Bugs
 - [ ] Configuration
 - [ ] Docs
-- [ ] Design
+- [ ] Style
 - [ ] Code Refactoring
 - [ ] Test
+- [ ] Design
 
 ## Checklist
 - [ ] You kept the Commit Message Convention.
