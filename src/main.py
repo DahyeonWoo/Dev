@@ -5,12 +5,12 @@
 from fastapi import FastAPI
 
 app = FastAPI(
-    title="FastAPI - Hello World code",
-    description="This is the Hello World of FastAPI.",
+    title="FastAPI - Hi World code",
+    description="This is the Hi World of FastAPI.",
     version="1.0.0",
 )
 
 
 @app.get("/")
-def hello_world():
-    return {"Hello": "World"}
+def hi_world():
+    return {"Hi": "World"}

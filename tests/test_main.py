@@ -6,8 +6,8 @@ from src.main import app
 def client():
     return TestClient(app)
 
-def test_hello_world(client):
+def test_hi_world(client):
     response = client.get("/")
     assert response.status_code == 200
     assert response.status_code != 500
-    assert response.json() == {"Hello": "World"}
+    assert response.json() == {"Hi": "World"}
